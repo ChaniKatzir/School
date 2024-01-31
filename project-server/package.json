@@ -1,0 +1,41 @@
+{
+  "name": "project-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "csv": "^6.3.6",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.7.1",
+    "node-base64-to-file": "^1.0.4",
+    "nodemon": "^3.0.2",
+    "papaparse": "^5.4.1",
+    "pdf-lib": "^1.17.1",
+    "print-js": "^1.6.0",
+    "puppeteer": "^21.7.0",
+    "request-promise": "^4.2.6",
+    "request-promise-native": "^1.0.9",
+    "sequelize": "^6.28.0",
+    "sharp": "^0.33.2",
+    "sqlite3": "^5.1.4",
+    "unzipper": "^0.10.14"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
